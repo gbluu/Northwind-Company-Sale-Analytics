@@ -12,10 +12,10 @@ Trả lời các câu hỏi của các team:
 Dưới đây là entity relationship diagram (ERD) của dataset
 ![Model](/image/modelviews.png)
 ## Câu Hỏi
-#### 1. Product Team muốn biết những sản phẩm đang được offer với giá từ $20 - $50?
+
 <details>
 <summary>
-Solution
+1. Product Team muốn biết những sản phẩm đang được offer với giá từ $20 - $50?
 </summary>
 
 ```sql
@@ -29,10 +29,9 @@ ORDER  BY unit_price DESC;
 ![q1](/image/1.png)
 </details>
 
-#### 2. Logistics Team muốn tra lại lịch sử hiệu suất của việc xuất khẩu từ 1998 để biết quốc gia nào chưa hoàn thành tốt?
 <details>
 <summary>
-Solution
+2. Logistics Team muốn tra lại lịch sử hiệu suất của việc xuất khẩu từ 1998 để biết quốc gia nào chưa hoàn thành tốt?
 </summary>
 
 ```sql
@@ -56,10 +55,9 @@ WHERE  average_days_order_shipping >= 5
 ![q2](/image/2.png)
 </details>
 
-#### 3. HR Team muốn biết thông tin nhân viên, tuổi của họ lúc gia nhập công ty và thông tin người quản lý của họ?
 <details>
 <summary>
-Solution
+3. HR Team muốn biết thông tin nhân viên, tuổi của họ lúc gia nhập công ty và thông tin người quản lý của họ?
 </summary>
 
 ```sql
@@ -76,10 +74,10 @@ ORDER  BY employee_age;
 ![q3](/image/3.png)
 </details>
 
-#### 4. Logistics Team muốn tra lại lịch sử từ 1997 - 1998 để biết tháng nào có hiệu suất tốt?
+ 
 <details>
 <summary>
-Solution
+4. Logistics Team muốn tra lại lịch sử từ 1997 - 1998 để biết tháng nào có hiệu suất tốt?
 </summary>
 
 ```sql
@@ -100,10 +98,10 @@ ORDER  BY total_freight DESC;
 ![q4](/image/4.png)
 </details>
 
-#### 5. Pricing Team muốn biết sản phẩm có đơn giá tăng và tỉ lệ tăng không nằm trong khoảng 20% - 30%?
+ 
 <details>
 <summary>
-Solution
+5. Pricing Team muốn biết sản phẩm có đơn giá tăng và tỉ lệ tăng không nằm trong khoảng 20% - 30%?
 </summary>
 
 ```sql
@@ -144,10 +142,9 @@ HAVING Count(DISTINCT order_id) > 10
 ![](/image/5.png)
 </details>
 
- #### 6. Pricing Team muốn chia danh mục sản phẩm (category) theo 3 mức giá và hiệu suất bán hàng của chúng?
 <details>
 <summary>
-Solution
+6. Pricing Team muốn chia danh mục sản phẩm (category) theo 3 mức giá và hiệu suất bán hàng của chúng?
 </summary>
 
 ```sql
@@ -179,10 +176,10 @@ ORDER  BY category_name,
 </details>
   
  
-#### 7. Logistics Team muốn biết tình trạng kho hàng của các nhà cung cấp trong khu vực đối với từng loại sản phẩm?
+ 
 <details>
 <summary>
-Solution
+7. Logistics Team muốn biết tình trạng kho hàng của các nhà cung cấp trong khu vực đối với từng loại sản phẩm?
 </summary>
 
 ```sql
@@ -209,10 +206,10 @@ ORDER  BY supplier_region,
 ![](/image/7.png)
 </details>
   
-  #### 8. Pricing Team muốn biết tình trạng đơn giá sản phẩm so với giá trung bình theo từng danh mục? 
+   
 <details>
 <summary>
-Solution
+8. Pricing Team muốn biết tình trạng đơn giá sản phẩm so với giá trung bình theo từng danh mục? 
 </summary>
 
 ```sql
@@ -250,10 +247,10 @@ ORDER BY category_name,
 ![](/image/8.png)
 </details>
   
-#### 9. Sales Team muốn một bảng đánh giá KPI hiệu suất nhân viên
+ 
 <details>
 <summary>
-Solution
+9. Sales Team muốn một bảng đánh giá KPI hiệu suất nhân viên
 </summary>
 
 ```sql
@@ -317,10 +314,10 @@ ORDER  BY total_sale_amount_including_discount DESC;
 ![](/image/9.png)
 </details>
 
-#### 10. Sales Team muốn một bảng đánh giá KPI hiệu suất nhân viên theo từng danh mục sản phẩm
+ 
 <details>
 <summary>
-Solution
+10. Sales Team muốn một bảng đánh giá KPI hiệu suất nhân viên theo từng danh mục sản phẩm
 </summary>
 
 ```sql
