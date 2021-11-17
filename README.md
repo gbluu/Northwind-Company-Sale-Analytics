@@ -365,3 +365,33 @@ ORDER  BY category_name,
 ```
 ![](/image/10.png)
 </details>
+
+## Data Visualization
+       
+<details>
+  <summary>Sales Overview</summary>
+<p align="center">
+ <img src="/image/db2.png">
+</p>
+</details>
+       
+<details>
+  <summary>Pricing Analysis</summary>
+<p align="center">
+ <img src="/image/db1.png">
+</p>
+</details>
+
+<details>
+  <summary>Logistic</summary>
+<p align="center">
+ <img src="/image/db3.png">
+</p>
+</details>
+     
+## Kết Luận
+       
+Sau khi trình bày những câu hỏi trên, có thể rút ra vài kết luận sau:
+ - Về mặt Logistic, mặc dù làm khá tốt trong việc quản lý kho hàng đáp ứng được nhu cầu, nhưng vẫn cần tối ưu và cải thiện tốc độ vận chuyển.
+ - Hầu như Beverage chiếm cao nhất trong tổng sales, cụ thể là phân khúc giá dưới $20. Tuy nhiên, Pricing team và Product team có thể điều chỉnh lại trong chiến dịch xúc tiến (Sale Promotion Strategy) bởi vì kế hoạch khuyến mãi hiện tại chưa có sự tác động mạnh mẽ đến khách hàng.
+ - Đối với nhân viên thì chưa có một số liệu rõ ràng và cụ thể nào về hiệu suất bán hàng theo nhân khẩu học. 
