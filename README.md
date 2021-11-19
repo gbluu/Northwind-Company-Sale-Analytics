@@ -15,10 +15,9 @@ Dưới đây là entity relationship diagram (ERD) của dataset
 ![Model](/image/modelviews.png)
 ## Câu Hỏi
 
-<details>
-<summary>
+
 1. Product Team muốn biết những sản phẩm đang được offer với giá từ $20 - $50?
-</summary>
+
 
 ```sql
 SELECT product_name,
@@ -58,7 +57,7 @@ ORDER  BY unit_price DESC;
 |Gustaf's Knäckebröd             |21        |
 |Maxilaku                        |20        |
 
-</details>
+
 
 <details>
 <summary>
